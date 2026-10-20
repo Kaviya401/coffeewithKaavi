@@ -1,0 +1,26 @@
+{
+  "name": "brew-and-bean",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint app components data store"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.7",
+    "bootstrap": "^5.3.3",
+    "framer-motion": "^11.3.19",
+    "next": "^16.4.2",
+    "react": "^19.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^19.3.1",
+    "react-redux": "^9.1.2",
+    "redux-persist": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^10.13.0",
+    "eslint-config-next": "^16.4.2"
+  }
+}
